@@ -1,78 +1,124 @@
-🚗 CarRental Pro – Final Project
-CPSC 349 – Web Front-End Engineering
-📌 Project Overview
+# 🚗 DriveEase / CarRental Pro – Final Project  
+## CPSC 349 – Web Front-End Engineering  
 
-CarRental Pro is a modern web application built with React + TypeScript that allows users to browse, view, and book rental cars online.
+---
 
-It simulates a real-world car rental platform with a clean UI and a full booking flow from selection → checkout → confirmation.
+# 📌 Project Overview  
 
-🎯 Purpose
+DriveEase is a modern car rental web application built using React and TypeScript.  
+It allows users to browse cars, view details, and complete a full booking process including checkout and confirmation.
 
-The goal of this project is to demonstrate:
+The application simulates a real-world rental platform with a clean and simple user experience.
 
-Component-based UI design (React)
-Multi-page routing
-State management
-User interaction flows
-Responsive web design
-🌟 Features
-🚗 Car Browsing System
+---
 
-Users can view a list of available rental cars with images, prices, and categories.
+# 🎯 Purpose  
 
-🔍 Car Details Page
+The purpose of this project is to demonstrate frontend development skills using React, including:
 
-Each car has a dedicated page showing:
+- Component-based architecture  
+- Routing with React Router  
+- State management using hooks  
+- Form handling and validation  
+- Real-world user flow design  
 
-Name
-Type
-Price per day
-Booking option
-📅 Booking System
+---
 
-Users can:
+# 🌟 Features  
 
-Select pickup date
-Select return date
-Proceed to checkout
-💳 Checkout Flow
+- 🚗 Car browsing system  
+- 🔍 Car details page  
+- 📅 Booking system (date selection)  
+- 💳 Checkout flow with validation  
+- 🎉 Success confirmation page  
+- 🎨 Responsive design  
 
-A simple checkout system that collects:
+---
 
-Name
-Payment details (mock)
-Booking dates
-🎉 Success Page
+# User Flow  
 
-After booking, users see a confirmation page with:
+1. Home Page  
+2. Browse Cars  
+3. Select a Car  
+4. View Car Details  
+5. Checkout Page  
+6. Success Confirmation  
 
-Booking confirmation message
-Summary of reservation
-🧭 User Flow
-Home Page
-Browse Cars
-Select Car
-View Details
-Checkout
-Success Confirmation
-🏠 Homepage
+---
 
-The homepage is designed like a landing page and includes:
+# 💻 Tech Stack  
 
-Hero section
-Feature highlights
-Testimonials
-Navigation to browse cars
-💻 Tech Stack
-React (Frontend framework)
-TypeScript (Type safety)
-React Router (Page navigation)
-CSS (Custom styling, no frameworks)
-🧠 Key Concepts Used
-Functional Components
-React Hooks (useState, useNavigate)
-Props passing
-Routing with React Router
-Conditional rendering
-Form handling
-Component-based architecture
+- React  
+- TypeScript  
+- React Router  
+- CSS (Custom Styling)  
+
+---
+
+# 🧠 Key Concepts Used  
+
+- Functional Components  
+- React Hooks (useState, useNavigate)  
+- Routing with React Router  
+- Conditional Rendering  
+- Form Handling & Validation  
+- Component-Based Architecture  
+
+---
+
+# 📁 Project Structure  
+
+src/  
+├── components/  
+│   ├── Navbar.tsx  
+│   ├── CarCard.tsx  
+│  
+├── pages/  
+│   ├── Home.tsx  
+│   ├── Browse.tsx  
+│   ├── CarDetails.tsx  
+│   ├── Checkout.tsx  
+│   ├── Success.tsx  
+│  
+├── data/  
+│   └── cars.ts  
+│  
+├── types/  
+│   └── Car.ts  
+│  
+├── App.tsx  
+├── main.tsx  
+├── index.css  
+
+---
+
+# 🚀 Features Implemented  
+
+- Modern landing page with hero section  
+- Car listing grid with images and pricing  
+- Dynamic routing between pages  
+- Checkout form with validation  
+- Booking confirmation system  
+- Responsive layout design  
+
+---
+
+# 🎨 Design Highlights  
+
+- Clean card-based UI  
+- Gradient hero section  
+- Hover effects on buttons  
+- Simple navigation bar  
+- Mobile-friendly layout  
+
+---
+
+# 👨‍💻 Developer Note  
+
+This project was built as part of CPSC 349 Web Front-End Engineering to demonstrate skills in React development, UI design, and full user flow implementation.
+
+---
+
+# 📌 Project Summary  
+
+DriveEase is a complete frontend web application that simulates a real car rental service with a smooth booking experience from browsing to confirmation.
