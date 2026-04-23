@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+🚗 CarRental Pro – Final Project
+CPSC 349 – Web Front-End Engineering
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CarRental Pro is a modern web application built with React + TypeScript that allows users to browse, view, and book rental cars online.
 
-Currently, two official plugins are available:
+It simulates a real-world car rental platform with a clean UI and a full booking flow from selection → checkout → confirmation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🎯 Purpose
 
-## React Compiler
+The goal of this project is to demonstrate:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Component-based UI design (React)
+Multi-page routing
+State management
+User interaction flows
+Responsive web design
+🌟 Features
+🚗 Car Browsing System
 
-## Expanding the ESLint configuration
+Users can view a list of available rental cars with images, prices, and categories.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔍 Car Details Page
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Each car has a dedicated page showing:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Name
+Type
+Price per day
+Booking option
+📅 Booking System
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Users can:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Select pickup date
+Select return date
+Proceed to checkout
+💳 Checkout Flow
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A simple checkout system that collects:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Name
+Payment details (mock)
+Booking dates
+🎉 Success Page
+
+After booking, users see a confirmation page with:
+
+Booking confirmation message
+Summary of reservation
+🧭 User Flow
+Home Page
+Browse Cars
+Select Car
+View Details
+Checkout
+Success Confirmation
+🏠 Homepage
+
+The homepage is designed like a landing page and includes:
+
+Hero section
+Feature highlights
+Testimonials
+Navigation to browse cars
+💻 Tech Stack
+React (Frontend framework)
+TypeScript (Type safety)
+React Router (Page navigation)
+CSS (Custom styling, no frameworks)
+🧠 Key Concepts Used
+Functional Components
+React Hooks (useState, useNavigate)
+Props passing
+Routing with React Router
+Conditional rendering
+Form handling
+Component-based architecture
